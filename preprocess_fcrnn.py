@@ -4,11 +4,11 @@ import sys
 import pickle
 import time
 
-dir_np_chargrid_1h = "./data/outdir_np_chargrid_1h/"
-dir_np_chargrid = "./data/outdir_np_chargrid/"
-dir_np_gt_1h = "./data/outdir_np_gt_1h/"
-dir_np_bbox_anchor_mask = "./data/outdir_np_bbox_anchor_mask/"
-dir_np_bbox_anchor_coord = "./data/outdir_np_bbox_anchor_coord/"
+dir_np_chargrid_1h = "content/data/outdir_np_chargrid_1h/"
+dir_np_chargrid = "content/data/outdir_np_chargrid/"
+dir_np_gt_1h = "content/data/outdir_np_gt_1h/"
+dir_np_bbox_anchor_mask = "content/data/outdir_np_bbox_anchor_mask/"
+dir_np_bbox_anchor_coord = "content/data/outdir_np_bbox_anchor_coord/"
 
 if not os.path.exists(dir_np_chargrid):
     os.makedirs(dir_np_chargrid)
