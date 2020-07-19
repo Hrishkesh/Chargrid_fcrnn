@@ -63,7 +63,9 @@ C.num_rois = num_rois
 
 C.base_net_weights = base_weight_path
 
-with open('./data/train_data.pkl', 'rb') as f:
+C.verbose = True
+
+with open('/content/data/train_data.pkl', 'rb') as f:
     train_imgs = pickle.load(f)
 
 classes_count = {'Total': 0,
