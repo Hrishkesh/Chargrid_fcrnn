@@ -32,7 +32,7 @@ if not os.path.isdir("models"):
 if not os.path.isdir("models/rpn"):
     os.mkdir("models/rpn")
 
-train_path = './data/train_data.pkl'  # Training data (annotation file)
+train_path = '/content/data/train_data.pkl'  # Training data (annotation file)
 
 num_rois = 4  # Number of RoIs to process at once.
 
@@ -460,7 +460,7 @@ for epoch_num in range(num_epochs):
             print('Exception: {}'.format(e))
             continue
 
-print('Training complete, exiting.'
+print('Training complete, exiting.')
 
 plt.figure(figsize=(15, 5))
 plt.subplot(1, 2, 1)

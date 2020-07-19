@@ -75,5 +75,5 @@ for each in os.listdir(dir_np_chargrid_1h):
 print()
 print('Spent %0.2f mins to load the data' % ((time.time() - st) / 60))
 
-with open('./data/train_data.pkl', 'wb') as f:
+with open('/content/data/train_data.pkl', 'wb') as f:
     pickle.dump(train_data, f)
