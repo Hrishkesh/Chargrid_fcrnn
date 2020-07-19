@@ -1,0 +1,26 @@
+{
+    "root": "/content/Chargrid_fcrnn",
+    "program": "train.py",
+    "git": {
+        "remote": "https://hrishkesh:vidyasagar6969@github.com/hrishkesh/Chargrid_fcrnn.git",
+        "commit": "11a20db8d45bd4b9e0eeb9c572fdb21f3e113648"
+    },
+    "email": "hrishkesh.pattepu@gmail.com",
+    "startedAt": "2020-07-19T21:31:31.655272",
+    "host": "5f8d6d3812d9",
+    "username": "root",
+    "executable": "/usr/bin/python3",
+    "os": "Linux-4.19.104+-x86_64-with-Ubuntu-18.04-bionic",
+    "python": "3.6.9",
+    "gpu": "Tesla P100-PCIE-16GB",
+    "gpu_count": 1,
+    "cpu_count": 2,
+    "cuda": "10.1.243",
+    "args": [],
+    "state": "killed",
+    "jobType": null,
+    "mode": "run",
+    "project": "chargrid_fcrnn",
+    "heartbeatAt": "2020-07-19T21:34:12.493768",
+    "exitcode": 255
+}

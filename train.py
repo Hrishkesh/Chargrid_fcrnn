@@ -458,6 +458,8 @@ for epoch_num in range(num_epochs):
                            'elapsed_time': round(elapsed_time, 3),
                            'mAP': 0}
 
+                wandb.log(new_row)
+
                 record_df = record_df.append(new_row, ignore_index=True)
                 record_df.to_csv(record_path, index=0)
 
