@@ -18,6 +18,11 @@ from keras_fcrnn.vgg import nn_base, rpn_layer, classifier_layer, rpn_loss_regr,
 from keras.optimizers import Adam, SGD, RMSprop
 import data_generators
 
+import wandb
+from wandb.keras import WandbCallback
+wandb.init(project="chargrid_fcrnn")
+
+
 # gpu setting
 if 'tensorflow' == K.backend():
     import tensorflow as tf
