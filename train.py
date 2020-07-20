@@ -19,7 +19,6 @@ from keras.optimizers import Adam, SGD, RMSprop
 import data_generators
 
 import wandb
-from wandb.keras import WandbCallback
 wandb.init(project="chargrid_fcrnn")
 
 
