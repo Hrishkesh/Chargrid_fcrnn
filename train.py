@@ -19,7 +19,7 @@ from keras.optimizers import Adam, SGD, RMSprop
 import data_generators
 
 import wandb
-wandb.init(project="chargrid_fcrnn")
+wandb.init(project="chargrid_fcrnn-")
 
 
 # gpu setting
@@ -289,8 +289,8 @@ model_all.compile(optimizer='sgd', loss='mae')
 total_epochs = len(record_df)
 r_epochs = len(record_df)
 
-epoch_length = 1000
-num_epochs = 2  # Just of sharing the karnel running with 2 epoch , you try with min 20 epochs
+epoch_length = 602
+num_epochs = 200  # Just of sharing the karnel running with 2 epoch , you try with min 20 epochs
 iter_num = 0
 
 total_epochs += num_epochs
