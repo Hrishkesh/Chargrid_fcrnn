@@ -25,7 +25,7 @@ wandb.init(project="chargrid_fcrnn-")
 # gpu setting
 if 'tensorflow' == K.backend():
     import tensorflow as tf
-from keras.backend.tensorflow_backend import set_session
+#from keras.backend.tensorflow_backend import set_session
 
 # config2 = tf.ConfigProto()
 # config2.gpu_options.allow_growth = True
@@ -289,8 +289,8 @@ model_all.compile(optimizer='sgd', loss='mae')
 total_epochs = len(record_df)
 r_epochs = len(record_df)
 
-epoch_length = 602
-num_epochs = 200  # Just of sharing the karnel running with 2 epoch , you try with min 20 epochs
+epoch_length = 1000
+num_epochs = 100  # Just of sharing the karnel running with 2 epoch , you try with min 20 epochs
 iter_num = 0
 
 total_epochs += num_epochs
